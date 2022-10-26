@@ -299,6 +299,7 @@ return Time;
         System.out.println("----------------------");  
    }
 //-----------------------------------for printing the tickets booked--------------------
+    /
    void afterselectingseats(){
     System.out.println("---------------");
     for(int k=1;k<=50;k++){
@@ -608,5 +609,6 @@ if(paymod.equalsIgnoreCase("PHONE PAY")||paymod.equalsIgnoreCase("GOOGLE PAY")){
     g.usingcard();
 }*/
 //-----------------------------------------------------------------main ended
+    //After booking the data then you have to print the full detaiss
 }
 
